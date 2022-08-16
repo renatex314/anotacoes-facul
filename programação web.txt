@@ -1,0 +1,35 @@
+"Mihnas férias"
+
+disciplina - Programação Web
+Renata Costa
+php/mysql - BD - Modelagem de Dados - DOL
+
+php - linguagem de programação orientada a objetos,
+interpretada, de script, derivada da linguagem C
+
+*Modelagem de requisitos 
+*Programação computadores (Lógica)
+
+*HTML / CSS / JS
+*Técnicas Desenvolvimento de algoritmos
+*Laboratório de algoritmos
+*POO
+
+PHP = Form = HTML -> C (Lógica)
+
+----------------------------------------------------------------
+
+"StakeHolders"
+Escola Ed. Inf
+LGPD - Lei Geral de Proteção de Dados Pessoais
+-> Crianças <- 07 a 11 anos
+APAE
+
+Acessibilidade
+
+Diretora P. R. C
+Site - Interativa (Escrita fala)
+Disney
+Jogos
+Youtube Kids
+Brincar
