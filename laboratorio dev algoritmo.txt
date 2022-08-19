@@ -3,7 +3,7 @@ email professor - leandro.almeida@brazcubas.edu.br
 CRUD
 
 C - Create | Insert
-R - Remove
+R - Read | Select
 U - Update
 D - Delete
 
