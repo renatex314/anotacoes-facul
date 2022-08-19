@@ -39,4 +39,21 @@ PHP:
 
 definição de variável:
 
-$nomedavariavel = valor;
+    $nomedavariavel = valor;
+
+mostrar algo na tela:
+
+    print ou echo
+
+-------------------------------------------------------
+
+Java:
+
+- Necessário JDK (Java Development Kit) para desenvolver usando o Java e JRE
+- IDEs: [NetBeans, Eclipse, VsCode]
+
+-------------------------------------------------------
+
+IDE:
+
+Integrated Development Environment (Ambiente de Desenvolvimento Integrado)
