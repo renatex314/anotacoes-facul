@@ -1,0 +1,10 @@
+email professor - leandro.almeida@brazcubas.edu.br
+
+CRUD
+
+C - Create | Insert
+R - Remove
+U - Update
+D - Delete
+
+-------------------------------------------------------
