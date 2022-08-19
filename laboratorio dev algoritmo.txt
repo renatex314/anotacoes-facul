@@ -8,3 +8,35 @@ U - Update
 D - Delete
 
 -------------------------------------------------------
+
+Paradigma Procedural
+
+Entrada - Processamento - Saída
+
+-------------------------------------------------------
+
+Paradigma Orientado a Objetos
+
+- Reusabilidade
+
+-------------------------------------------------------
+
+Linguagens:
+
+- Fortemente tipada
+
+-------------------------------------------------------
+
+Variável:
+
+- Espaço reservado na memória que guarda algum valor
+
+-------------------------------------------------------
+
+PHP:
+
+- não é fortemente tipada
+
+definição de variável:
+
+$nomedavariavel = valor;
