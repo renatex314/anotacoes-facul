@@ -41,3 +41,19 @@ IBGE | ORG - ensino   \  INEP
 2º Cenário
 3º Projeto
 4º Desenhar (Protótipo) - HTML / CSS / JS
+
+----------------------------------------------------------------
+
+HTML - linguagem de marcação -> formatação, estático, texto
+
+[PHP, Java, C, JS] - linguagem de programação
+
+JavaScript - linguagem de programação interpretada a eventos (ações ao: clicar, carregar a página, ao receber um dado, etc)
+
+linguagens compiladas:
+[Java, C]
+ - linguagens que quando compiladas geram um arquivo para ser executado em qualquer lugar.
+
+linguagens interpretadas:
+[PHP, JavaScript]
+ - linguagens que são interpretadas na hora, ou seja, o código é executado na mesma hora que é lido.
