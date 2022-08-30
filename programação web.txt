@@ -63,4 +63,4 @@ linguagens interpretadas:
 PHP:
  - linguagem fracamente tipada
  - declaração e uso de variáveis começam com o símbolo '$'
- - 
+ - o arquivo padrão que é executado é o index.php
