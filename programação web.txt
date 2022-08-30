@@ -57,3 +57,10 @@ linguagens compiladas:
 linguagens interpretadas:
 [PHP, JavaScript]
  - linguagens que são interpretadas na hora, ou seja, o código é executado na mesma hora que é lido.
+
+----------------------------------------------------------------
+
+PHP:
+ - linguagem fracamente tipada
+ - declaração e uso de variáveis começam com o símbolo '$'
+ - 
