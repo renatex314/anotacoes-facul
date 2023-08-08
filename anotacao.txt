@@ -1,0 +1,96 @@
+MONGODB
+
+mostrar todos os bancos de dados:
+- show dbs
+
+usar ou criar um banco de dados:
+- use nomedobanco
+
+remover o banco de dados (tem que estar usando ele no momento):
+- db.dropDatabase()
+
+criar uma collection:
+- db.createCollection("nomedacollection")
+	
+	OBS: também é criada automaticamente ao inserir um dado na collection mesmo se ela não existir
+
+remover uma collection:
+- db.nomedacollection.drop()
+
+inserir um documento:
+- db.nomedacollection.insertOne(objetoJSON)
+
+inserir varios documentos:
+- db.nomedacollection.insertMany([objetoJSON1, objetoJSON2, ...])
+
+exibir collections dentro do banco de dados:
+- show collections
+
+exibir os documentos dentro de uma collection:
+- db.nomedacollection.find()
+
+exibir apenas um documento:
+- db.nomedacollection.findOne()
+
+exibir documentos com um certo atributo:
+- db.nomedacollection.find(objetoJSONComPropriedadesQueOsDocumentosDevemConter)
+
+exibir apenas certos campos dos documentos de uma collection:
+- db.nomedacollection.find({}, {campo1: 1, campo2: 1, ...})
+
+atualizar um documento de uma coleção:
+- db.nomedacolecao.updateOne(objetoJSONComPropriedadesQueOsDocumentosDevemConter, {$set: { campo1: valorquedeveter, campo2: valorquedeveter } })
+
+atualizar, e se não tiver, inserir:
+- db.nomedacolecao.updateOne(objetoJSONComPropriedadesQueOsDocumentosDevemConter, {$set: { campo1: valorquedeveter, campo2: valorquedeveter } }, { upsert: true })
+
+remover um documento:
+- db.nomedacollection.deleteOne(objetoJSONComPropriedadesQueOsDocumentosDevemConter)
+
+OPERADORES DE BUSCA:
+	MongoDB Query Operators
+	There are many query operators that can be used to compare and reference document fields.
+
+	Comparison
+	The following operators can be used in queries to compare values:
+
+	$eq: Values are equal
+	$ne: Values are not equal
+	$gt: Value is greater than another value
+	$gte: Value is greater than or equal to another value
+	$lt: Value is less than another value
+	$lte: Value is less than or equal to another value
+	$in: Value is matched within an array
+	Logical
+	The following operators can logically compare multiple queries.
+
+	$and: Returns documents where both queries match
+	$or: Returns documents where either query matches
+	$nor: Returns documents where both queries fail to match
+	$not: Returns documents where the query does not match	
+	Evaluation
+	The following operators assist in evaluating documents.
+
+	$regex: Allows the use of regular expressions when evaluating field values
+	$text: Performs a text search	
+	$where: Uses a JavaScript expression to match documents
+
+OPERADORES DE ATUALIZAÇÃO:
+	MongoDB Update Operators
+	There are many update operators that can be used during document updates.
+
+	Fields
+	The following operators can be used to update fields:
+
+	$currentDate: Sets the field value to the current date
+	$inc: Increments the field value
+	$rename: Renames the field
+	$set: Sets the value of a field
+	$unset: Removes the field from the document
+	Array
+	The following operators assist with updating arrays.
+
+	$addToSet: Adds distinct elements to an array
+	$pop: Removes the first or last element of an array
+	$pull: Removes all elements from an array that match the query
+	$push: Adds an element to an array
