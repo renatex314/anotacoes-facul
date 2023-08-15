@@ -1,5 +1,8 @@
 MONGODB
 
+limpar o console:
+- cls
+
 mostrar todos os bancos de dados:
 - show dbs
 
@@ -74,6 +77,8 @@ OPERADORES DE BUSCA:
 	$regex: Allows the use of regular expressions when evaluating field values
 	$text: Performs a text search	
 	$where: Uses a JavaScript expression to match documents
+
+exemplo: db.nomedacollection.find({campo: {$gt: 20}})
 
 OPERADORES DE ATUALIZAÇÃO:
 	MongoDB Update Operators
